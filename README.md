@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Beautiful Jekyll
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/daattali/20)
@@ -323,3 +324,7 @@ If you do fork or clone this project to use as a template for your site, I would
 - If you have a project page and you want a custom 404 page, you must have a custom domain.  See https://help.github.com/articles/custom-404-pages/.  This means that if you have a regular User Page you can use the 404 page from this theme, but if it's a website for a specific repository, the 404 page will not be used.
 
 - If there are many navigation bar links and and avatar, some of the links may get partially hidden behind the avatar. 
+=======
+# DreamLand.github.io
+The blog page is belong to DreamLand
+>>>>>>> parent of 91d5d55... Set theme jekyll-theme-cayman
