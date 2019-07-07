@@ -1,2 +1,2 @@
-# takeToDreamLand
-This is blog about the learning route of Dreamland
+# takeToDreamLand.github.io
+the blog is belong to DreamLand
