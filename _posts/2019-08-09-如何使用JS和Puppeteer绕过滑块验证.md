@@ -1,7 +1,12 @@
+---
+layout: post
+title: 如何使用Js和Puppeteer绕过滑块验证
+subtitle: 从滑块验证到滑块拼图验证
+---
+
 # 如何使用Js和Puppeteer绕过滑块验证
 
-<p id="source">本文转载自[sourceLink]: https://medium.com/@filipvitas/how-to-bypass-slider-captcha-with-js-and-puppeteer-cd5e28105e3c “How to bypass "slider CAPTCHA" with JS and Puppeteer”</p>  
-
+<p id="source">本文转载自[sourceLink]: https://medium.com/@filipvitas/how-to-bypass-slider-captcha-with-js-and-puppeteer-cd5e28105e3c “How to bypass "slider CAPTCHA" with JS and Puppeteer”</p>   
 垃圾邮件对于网站所有者来说是个大问题，但是另一方面，为了拦截垃圾邮件而设置的**验证**带来的糟糕用户体验又让我发疯。  
 
 验证很糟，但是我们可以直面它，事实上现在有很多种验证方式来确保当前操作是人为的有效操作，但每一种都很糟。    
