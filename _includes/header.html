@@ -37,7 +37,10 @@
 		  
 		  {% if include.type == "post" %}
 		  <span class="post-meta">上传于{{ page.date | date: "YYYY-MM-DD" }}</span>
-		  {% endif %}
+      {% endif %}
+      {% if post.source %} 
+      <a href={{ post.source }}>{{ post.sourceTitle }}</a>
+      {% endif %}
         </div>
       </div>
     </div>
@@ -61,8 +64,13 @@
 		  {% endif %}
 		  
 		  {% if include.type == "post" %}
-		  <span class="post-meta">上传于{{ page.date | date: "%B %-d, %Y" }}</span>
-		  {% endif %}
+      <span class="post-meta">上传于{{ page.date | date: "%B %-d, %Y" }}</span>
+      {% if page.source %}
+      <br />
+      <span class="post-source">转载自<a href={{ page.source }}> {{ page.sourceTitle }}</a></span> 
+      {% endif %}
+      {% endif %}
+      
         </div>
       </div>
     </div>
