@@ -2,6 +2,7 @@
 layout: post
 title: C#中的面向对象编程问题
 subtitle: 以DateTime数据类型的学习为例
+tags: [ .NET 面向对象编程]
 ---
 
 在学习C#中的面向对象编程时，我想到可以用C#中的`DateTime`数据类型为学习对象，来加深对**类（对象）** 这个概念的理解。
